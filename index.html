@@ -1,0 +1,90 @@
+<!doctype html>
+
+<html>
+<head>
+    <title>Cambridge Deli</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+<div class="container">
+    <h1>Cambridge Deli</h1>
+
+    <p>Fresh sandwiches and snacks in the heart of Cambridge</p>
+
+
+    <div class="row">
+        <div class="col-md-4">
+            <form id="greeting-form" method="post" action="/booking">
+                <div class="form-group">
+                    <label>What's your name?</label>
+                    <input type="text" name="name" class="form-control"
+                    placeholder="name">
+                </div>
+
+                <div class="form-group">
+                    <label>What's your Email?</label>
+                    <input type="email" name="email" class="form-control"/>
+
+                </div>
+                <button type="submit" class="btn btn-default">OK</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8" id="greeting">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12"><h2>Savoury</h2></div>
+        <!--<div class="col-md-6"><h2>Main</h2></div>-->
+        <!--<div class="col-md-4"><h2>Dessert</h2></div>-->
+    </div>
+    <div class="row">
+        <div class="col-md-3" id="tableBorders"><h2>Sandwiches</h2><a href="cheeseburgers.html"><img
+                src="img/sandwiches.jpg" class="bottomPadding img-responsive"></a></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3" id="tableBorders2"><h2>Salads</h2><a href="cheeseburgers.html"><img src="img/salad.jpg"
+                                                                                                  class="bottomPadding img-responsive"></a>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3" id="tableBorders3"><h2>Snacks</h2><a href="cheeseburgers.html"><img src="img/snacks.jpg"
+                                                                                                  class="bottomPadding img-responsive"></a>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-12"><h2>Sweets</h2></div>
+        <!--<div class="col-md-6"><h2>Main</h2></div>-->
+        <!--<div class="col-md-4"><h2>Dessert</h2></div>-->
+    </div>
+    <div class="row">
+        <div class="col-md-3" id="tableBorders4"><h2>Pastries</h2><a href="cheeseburgers.html"><img src="img/pastries.jpg"
+                                                                                                    class="bottomPadding img-responsive"></a>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3" id="tableBorders5"><h2>Cakes</h2><a href="cheeseburgers.html"><img src="img/salad.jpg"
+                                                                                                 class="bottomPadding img-responsive"></a>
+        </div>
+        <div class="col-md-1"></div>
+
+    </div>
+</div>
+<!--<p>Our menu includes:</p>-->
+<!--<ul>-->
+<!--<li><a href="cheeseburgers.html" id="first-item">Sandwiches</a></li>-->
+<!--<li><a href="curlyfries.html" class="veggie">Salads</a></li>-->
+<!--<li><a href="milkshakes.html">Snacks</a></li>-->
+<!--<li><a href="milkshakes.html">Pastries</a></li>-->
+<!--<li><a href="milkshakes.html">Cakes</a></li>-->
+<!--</ul>-->
+
+<script src="jquery.js"></script>
+<script src="myfrontend.js"></script>
+
+</body>
+</html>
